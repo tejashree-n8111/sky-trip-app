@@ -1,0 +1,36 @@
+<div class="card bg-light text-dark mt-3">
+    <div class="row">
+        <div class="col-md-2 card-body">
+            <h5>From:</h5>
+            <h6>{{flightDetails.from}}</h6>
+        </div>
+
+        <div class="col-md-2 card-body">
+            <h5>To:</h5>
+            <h6>{{flightDetails.to}}</h6>
+        </div>
+
+        <div class="col-md-2 card-body">
+            <h5>Flight:</h5>
+            <h6>{{flightDetails.flight}}</h6>
+        </div>
+
+        <div class="col-md-2 card-body">
+            <h5>Start Time:</h5>
+            <h6>{{flightDetails.startTime}}</h6>
+        </div>
+
+        <div class="col-md-2 card-body">
+            <h5>Duration:</h5>
+            <h6>{{flightDetails.duration}}</h6>
+        </div>
+
+        <div class="col-md-2 card-body">
+            <h5>Reach Time:</h5>
+            <h6>{{flightDetails.reachTime}}</h6>
+        </div>
+    </div>
+</div>
+<div class="text-center">
+    <button class="btn btn-outline-warning" (click)="bookingFlightFn()">Book a Flight</button>
+</div>

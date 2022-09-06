@@ -1,0 +1,32 @@
+[
+    {
+        "status": "cancelled",
+        "from": "New Delhi",
+        "to": "Goa",
+        "flight": "Vistara"
+    },
+    {
+        "status": "Cancelled",
+        "from": "New Delhi",
+        "to": "Mumbai",
+        "flight": "Vistara"
+    },
+    {
+        "status": "upcoming",
+        "from": "Mumbai",
+        "to": "Ladakh",
+        "flight": "Vistara"
+    },
+    {
+        "status": "upcoming",
+        "from": "New Delhi",
+        "to": "Paris",
+        "flight": "Vistara"
+    },
+    {
+        "status": "completed",
+        "from": "Mumbai",
+        "to": "Maldives",
+        "flight": "Indigo"
+    }
+]

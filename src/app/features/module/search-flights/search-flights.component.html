@@ -1,0 +1,39 @@
+<div class="mt-4">
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="oneway" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">ONEWAY</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="roundtrip" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">ROUND TRIP</label>
+    </div>
+</div>
+
+<div class="row mt-4" [formGroup]="searchFlightForm">
+    <div class="col-md-6">
+        <label class="form-label">From:</label>
+        <select class="form-select" aria-label="Default select example" formControlName="from">
+            <option selected>Open this select menu</option>
+            <option value="pune">Pune</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="newDelhi">New Delhi</option>
+            <option value="leh">Leh</option>
+        </select>
+    </div>
+    <div class="col-md-6">
+        <label class="form-label">To:</label>
+        <select class="form-select" aria-label="Default select example" formControlName="to">
+            <option selected>Open this select menu</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="newDelhi">New Delhi</option>
+            <option value="leh">Leh</option>
+            <option value="ladakh">Ladakh</option>
+        </select>
+    </div>
+</div>
+<div class="text-center mt-3">
+    <button class="btn btn-outline-info" (click)="searchFlightFn()">Search Flight</button>
+</div>
+
+<br><br>
+<app-list-of-flights [flights]="searchFlights"></app-list-of-flights>

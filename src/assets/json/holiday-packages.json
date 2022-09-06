@@ -1,0 +1,42 @@
+[
+    {
+        "place": "Domestic",
+        "nameOfDestination": "Cola Beach Goa",
+        "img": "./assets/images/amer-fort-jaipur.jpeg"
+    },
+    {
+        "place": "Domestic",
+        "nameOfDestination": "Amar Fort Jaipur",
+        "img": "./assets/images/cola beach,Goa.jpeg"
+    },
+    {
+        "place": "Domestic",
+        "nameOfDestination": "Darjeeling West Bengal",
+        "img": "./assets/images/darjeeling, West Bengal.jpeg"
+    },
+    {
+        "place": "Domestic",
+        "nameOfDestination": "Golden Temple Amritsar",
+        "img": "./assets/images/golden temple,Amritsar.jpeg"
+    },
+    {
+        "place": "International",
+        "nameOfDestination": "Maldives",
+        "img": "./assets/images/maldives.jpeg"
+    },
+    {
+        "place": "International",
+        "nameOfDestination": "Paris",
+        "img": "./assets/images/paris.jpeg"
+    },
+    {
+        "place": "International",
+        "nameOfDestination": "Switzerland",
+        "img": "./assets/images/switzerland.jpeg"
+    },
+    {
+        "place": "International",
+        "nameOfDestination": "Thailand",
+        "img": "./assets/images/Thailand.jpeg"
+    }
+]

@@ -1,0 +1,32 @@
+<div class="card bg-light text-dark mt-3" *ngFor="let flight of flights">
+    <div class="row">
+        <div class="col-md-3 card-body">
+            <h5>From:</h5>
+            <h6>{{flight.from}}</h6>
+        </div>
+
+        <div class="col-md-3 card-body">
+            <h5>To:</h5>
+            <h6>{{flight.to}}</h6>
+        </div>
+
+        <div class="col-md-3 card-body">
+            <h5>Flight:</h5>
+            <h6>{{flight.flight}}</h6>
+        </div>
+
+        <div class="col-md-3 card-body">
+            <h5>Duration:</h5>
+            <h6>{{flight.duration}}</h6>
+        </div>
+
+        <div class="">
+            <button class="btn btn-outline-secondary float-end me-2 mb-2" (click)="toggleFn(flight)">Show
+                Flight</button>
+        </div>
+
+        <app-details-of-flight [flightDetails]="flight" *ngIf="showDetails"></app-details-of-flight>
+    </div>
+</div>
+
+<!-- <app-details-of-flight [flightDetails]="flight" *ngIf="showDetails"></app-details-of-flight> -->

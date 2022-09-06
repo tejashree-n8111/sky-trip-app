@@ -1,0 +1,28 @@
+{
+    "hotels": [
+        {
+            "hotelName": "Taj",
+            "checkInDate": "2022-08-30",
+            "checkoutDate": "2022-09-24",
+            "Id": 1
+        },
+        {
+            "hotelName": "shipra Avenue",
+            "checkInDate": "2022-09-30",
+            "checkoutDate": "2022-02-10",
+            "Id": 2
+        },
+        {
+            "hotelName": "Hotel Atharva",
+            "checkInDate": "2022-05-09",
+            "checkoutDate": "2022-09-12",
+            "Id": 3
+        },
+        {
+            "hotelName": "Hotel Anjushree",
+            "checkInDate": "2022-05-10",
+            "checkoutDate": "2022-06-10",
+            "Id": 4
+        }
+    ]
+}

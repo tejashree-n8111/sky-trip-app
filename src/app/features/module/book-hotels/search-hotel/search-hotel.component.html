@@ -1,0 +1,39 @@
+<div class="card mt-2">
+    <div class="card-body">
+        <div class="row" [formGroup]="hotelSearchForm">
+
+            <div class="col-md-4">
+                <h6>CITY,PROPERTY NAME OR LOCATION</h6>
+                <h2>Goa</h2>
+                <h5>India</h5>
+            </div>
+
+            <div class="col-md-2">
+                <h6> CHECK-IN</h6>
+                <input type="date" class="form-control" formControlName="checkIn">
+            </div>
+
+            <div class="col-md-2">
+                <h6> CHECK-OUT</h6>
+                <input type="date" class="form-control" formControlName="checkOut">
+            </div>
+
+            <div class="col-md-4">
+                <h6> ROOMS & GUESTS</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="text-center mt-3">
+    <button class="btn btn-outline-info" (click)="searchHotelFn()">Search Hotel</button>
+</div>
+
+
+<br><br>
+<div class="card">
+    <div class="card-body">
+        <h5>{{searchHotels|json}} </h5>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="mt-4">
+    <h4 class="fontStyle">My Completed Trips:</h4>
+</div>
+<div class="col-md-10">
+    <div class="card mt-3" *ngFor="let myCompletedTrip of myCompletedTrips">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Status:</h5>
+                <p>{{myCompletedTrip.status}}</p>
+            </div>
+            <div class="col-md-3">
+                <h5>From:</h5>
+                <p>{{myCompletedTrip.from}}</p>
+            </div>
+            <div class="col-md-3">
+                <h5>To:</h5>
+                <p>{{myCompletedTrip.to}}</p>
+            </div>
+            <div class="col-md-3">
+                <h5>Flight:</h5>
+                <p>{{myCompletedTrip.flight}}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="row mt-4">
+    <div class="col-md-6" *ngFor="let holidayPackage of holidayPackages">
+        <div class="row mt-5">
+            <img [src]="holidayPackage.img" [height]="250" [width]="150" />
+            <h5 class="bgclr">{{holidayPackage.nameOfDestination}} ({{holidayPackage.place}})</h5>
+        </div>
+    </div>
+</div>

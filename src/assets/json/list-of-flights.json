@@ -1,0 +1,34 @@
+[
+    {
+        "from": "pune",
+        "to": "mumbai",
+        "flight": "Indigo",
+        "startTime": "07:15",
+        "reachTime": "21:35",
+        "duration": "14h 20m"
+    },
+    {
+        "from": "mumbai",
+        "to": "newDelhi",
+        "flight": "Indigo",
+        "startTime": "07:15",
+        "reachTime": "21:35",
+        "duration": "14h 20m"
+    },
+    {
+        "from": "newDelhi",
+        "to": "leh",
+        "flight": "Indigo",
+        "startTime": "07:15",
+        "reachTime": "21:35",
+        "duration": "14h 20m"
+    },
+    {
+        "from": "leh",
+        "to": "ladakh",
+        "flight": "Indigo",
+        "startTime": "07:15",
+        "reachTime": "21:35",
+        "duration": "14h 20m"
+    }
+]
